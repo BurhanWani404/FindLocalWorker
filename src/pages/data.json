@@ -1,0 +1,1383 @@
+{
+  "Provinces": [
+    {
+      "Province": "Punjab - پنجاب",
+      "Divisions": [
+        {
+          "Division": "Lahore Division - لاہور ڈویژن",
+          "Districts": [
+            {
+              "District": "Lahore - لاہور",
+              "Tehsils": [
+                "Cantonment - کینٹ",
+                "City - شہر",
+                "Model Town - ماڈل ٹاؤن",
+                "Raiwind - رائیونڈ",
+                "Shalimar - شالیمار",
+                "Aziz Bhatti Town - عزیز بھٹی ٹاؤن",
+                "Data Ganj Bakhsh Town - داتا گنج بخش ٹاؤن"
+              ]
+            },
+            {
+              "District": "Kasur - قصور",
+              "Tehsils": [
+                "Chunian - چنیان",
+                "Kasur - قصور",
+                "Kot Radha Kishan - کوٹ رادھا کشن",
+                "Pattoki - پتوکی",
+                "Bhulwal - بھلوال"
+              ]
+            },
+            {
+              "District": "Sheikhupura - شیخوپورہ",
+              "Tehsils": [
+                "Ferozewala - فیروز والا",
+                "Muridke - مریدکے",
+                "Safdarabad - صفدر آباد",
+                "Sheikhupura - شیخوپورہ",
+                "Sharaqpur - شرقپور"
+              ]
+            },
+            {
+              "District": "Nankana Sahib - ننکانہ صاحب",
+              "Tehsils": [
+                "Nankana Sahib - ننکانہ صاحب",
+                "Sangla Hill - سانگلہ ہل",
+                "Shah Kot - شاہ کوٹ",
+                "Safdarabad - صفدر آباد"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Rawalpindi Division - راولپنڈی ڈویژن",
+          "Districts": [
+            {
+              "District": "Rawalpindi - راولپنڈی",
+              "Tehsils": [
+                "Rawalpindi - راولپنڈی",
+                "Taxila - ٹیکسلا",
+                "Gujar Khan - گوجر خان",
+                "Kahuta - کہوٹہ",
+                "Kallar Syedan - کلر سیداں"
+              ]
+            },
+            {
+              "District": "Attock - اٹک",
+              "Tehsils": [
+                "Attock - اٹک",
+                "Fateh Jang - فتح جنگ",
+                "Hassan Abdal - حسن ابدال",
+                "Jand - جند",
+                "Pindi Gheb - پنڈی گھیب"
+              ]
+            },
+            {
+              "District": "Chakwal - چکوال",
+              "Tehsils": [
+                "Chakwal - چکوال",
+                "Choa Saidan Shah - چوآ سیداں شاہ",
+                "Kallar Kahar - کلر کہار",
+                "Talagang - تلہ گنگ"
+              ]
+            },
+            {
+              "District": "Jhelum - جہلم",
+              "Tehsils": [
+                "Jhelum - جہلم",
+                "Pind Dadan Khan - پنڈ دادن خان",
+                "Sohawa - سوہاوہ",
+                "Dina - دینہ"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Gujranwala Division - گوجرانوالہ ڈویژن",
+          "Districts": [
+            {
+              "District": "Gujranwala - گوجرانوالہ",
+              "Tehsils": [
+                "Gujranwala City - گوجرانوالہ سٹی",
+                "Gujranwala Saddar - گوجرانوالہ صدر",
+                "Kamoke - کمونکی",
+                "Nowshera Virkan - نوشہرہ ورکاں",
+                "Aroop - عروپ"
+              ]
+            },
+            {
+              "District": "Sialkot - سیالکوٹ",
+              "Tehsils": [
+                "Sialkot - سیالکوٹ",
+                "Daska - ڈسکہ",
+                "Pasrur - پسرور",
+                "Sambrial - سمبڑیال",
+                "Zafarwal - ظفر وال"
+              ]
+            },
+            {
+              "District": "Narowal - نارووال",
+              "Tehsils": [
+                "Narowal - نارووال",
+                "Shakargarh - شکر گڑھ",
+                "Zafarwal - ظفر وال"
+              ]
+            },
+            {
+              "District": "Gujrat - گجرات",
+              "Tehsils": [
+                "Gujrat - گجرات",
+                "Kharian - خاریاں",
+                "Sarai Alamgir - سرائے عالمگیر",
+                "Kunjah - کنجاہ"
+              ]
+            },
+            {
+              "District": "Mandi Bahauddin - منڈی بہاؤالدین",
+              "Tehsils": [
+                "Mandi Bahauddin - منڈی بہاؤالدین",
+                "Malakwal - ملکوال",
+                "Phalia - پھالیہ"
+              ]
+            },
+            {
+              "District": "Hafizabad - حافظ آباد",
+              "Tehsils": [
+                "Hafizabad - حافظ آباد",
+                "Pindi Bhattian - پنڈی بھٹیاں"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Faisalabad Division - فیصل آباد ڈویژن",
+          "Districts": [
+            {
+              "District": "Faisalabad - فیصل آباد",
+              "Tehsils": [
+                "Faisalabad City - فیصل آباد سٹی",
+                "Faisalabad Saddar - فیصل آباد صدر",
+                "Chak Jhumra - چک جھمرہ",
+                "Jaranwala - جرانوالہ",
+                "Samundri - سمندری",
+                "Tandlianwala - ٹنڈلیانوالہ"
+              ]
+            },
+            {
+              "District": "Jhang - جھنگ",
+              "Tehsils": [
+                "Jhang - جھنگ",
+                "Shorkot - شورکوٹ",
+                "Ahmadpur Sial - احمد پور سیال",
+                "Athara Hazari - اٹھارہ ہزاری"
+              ]
+            },
+            {
+              "District": "Toba Tek Singh - ٹوبہ ٹیک سنگھ",
+              "Tehsils": [
+                "Toba Tek Singh - ٹوبہ ٹیک سنگھ",
+                "Gojra - گوجرہ",
+                "Kamalia - کمالیہ",
+                "Pir Mahal - پیر محل"
+              ]
+            },
+            {
+              "District": "Chiniot - چنیوٹ",
+              "Tehsils": [
+                "Chiniot - چنیوٹ",
+                "Bhawana - بھوانہ",
+                "Lalian - لیلیاں"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Sargodha Division - سرگودھا ڈویژن",
+          "Districts": [
+            {
+              "District": "Sargodha - سرگودھا",
+              "Tehsils": [
+                "Sargodha - سرگودھا",
+                "Bhalwal - بھلوال",
+                "Sahiwal - ساہیوال",
+                "Kot Momin - کوٹ مومن",
+                "Shahpur - شاہ پور"
+              ]
+            },
+            {
+              "District": "Khushab - خوشاب",
+              "Tehsils": [
+                "Khushab - خوشاب",
+                "Noorpur Thal - نور پور تھل",
+                "Quaidabad - قائد آباد"
+              ]
+            },
+            {
+              "District": "Mianwali - میانوالی",
+              "Tehsils": [
+                "Mianwali - میانوالی",
+                "Isa Khel - عیسیٰ خیل",
+                "Piplan - پیپلن"
+              ]
+            },
+            {
+              "District": "Bhakkar - بھکر",
+              "Tehsils": [
+                "Bhakkar - بھکر",
+                "Kallur Kot - کلور کوٹ",
+                "Darya Khan - دریا خان",
+                "Mankera - منکیرہ"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Province": "Sindh - سندھ",
+      "Divisions": [
+        {
+          "Division": "Karachi Division - کراچی ڈویژن",
+          "Districts": [
+            {
+              "District": "Karachi Central - کراچی سنٹرل",
+              "Tehsils": [
+                "Liaquatabad - لیاقت آباد",
+                "Nazimabad - ناظم آباد",
+                "Gulberg - گلبرگ",
+                "North Nazimabad - نارتھ ناظم آباد",
+                "Gulshan-e-Iqbal - گلشن اقبال",
+                "New Karachi - نیو کراچی"
+              ]
+            },
+            {
+              "District": "Karachi East - کراچی ایسٹ",
+              "Tehsils": [
+                "Ferozabad - فیروز آباد",
+                "Gulshan-e-Iqbal - گلشن اقبال",
+                "Jamshed Quarters - جمشید کوارٹرز",
+                "Sohrab Goth - سہراب گوٹھ",
+                "Shah Faisal Colony - شاہ فیصل کالونی"
+              ]
+            },
+            {
+              "District": "Karachi South - کراچی ساؤتھ",
+              "Tehsils": [
+                "Cantonment - کینٹ",
+                "Civil Lines - سول لائنز",
+                "Garden - گارڈن",
+                "Lyari - لیاری",
+                "Clifton - کلیفٹن",
+                "Keamari - کیماری"
+              ]
+            },
+            {
+              "District": "Karachi West - کراچی ویسٹ",
+              "Tehsils": [
+                "Baldia - بالڈیا",
+                "Harbour - ہاربر",
+                "Manghopir - منگھوپیر",
+                "Mominabad - مومن آباد",
+                "Orangi Town - اورنگی ٹاؤن",
+                "SITE - سائٹ"
+              ]
+            },
+            {
+              "District": "Korangi - کورنگی",
+              "Tehsils": [
+                "Korangi - کورنگی",
+                "Landhi - لانڈھی",
+                "Model Colony - ماڈل کالونی",
+                "Shah Faisal - شاہ فیصل",
+                "Bin Qasim - بن قاسم",
+                "Zaman Town - زمان ٹاؤن"
+              ]
+            },
+            {
+              "District": "Malir - ملیر",
+              "Tehsils": [
+                "Malir - ملیر",
+                "Gadap - گڈاپ",
+                "Bin Qasim - بن قاسم",
+                "Ibrahim Hyderi - ابراہیم حیدری",
+                "Murad Memon - مراد میمن"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Hyderabad Division - حیدرآباد ڈویژن",
+          "Districts": [
+            {
+              "District": "Hyderabad - حیدرآباد",
+              "Tehsils": [
+                "Hyderabad City - حیدرآباد سٹی",
+                "Latifabad - لطیف آباد",
+                "Qasimabad - قاسم آباد",
+                "Hussainabad - حسین آباد",
+                "Tando Jam - ٹنڈو جام"
+              ]
+            },
+            {
+              "District": "Tando Allahyar - ٹنڈو اللہ یار",
+              "Tehsils": [
+                "Tando Allahyar - ٹنڈو اللہ یار",
+                "Chambar - چمبر",
+                "Jhol - جھول",
+                "Mari - ماری"
+              ]
+            },
+            {
+              "District": "Tando Muhammad Khan - ٹنڈو محمد خان",
+              "Tehsils": [
+                "Tando Muhammad Khan - ٹنڈو محمد خان",
+                "Bulri Shah Karim - بلڑی شاہ کریم",
+                "Chor - چور",
+                "Saroondha - سرونڈھا"
+              ]
+            },
+            {
+              "District": "Matyari - مٹیاری",
+              "Tehsils": [
+                "Matyari - مٹیاری",
+                "Hala - ہالا",
+                "Saeedabad - سعید آباد",
+                "Shahdadpur - شہدادپور"
+              ]
+            },
+            {
+              "District": "Dadu - دادو",
+              "Tehsils": [
+                "Dadu - دادو",
+                "Johi - جوہی",
+                "Khairpur Nathan Shah - خیرپور ناتھن شاہ",
+                "Mehar - مہر",
+                "K.N. Shah - کے این شاہ"
+              ]
+            },
+            {
+              "District": "Jamshoro - جامشورو",
+              "Tehsils": [
+                "Jamshoro - جامشورو",
+                "Sehwan - سیہون",
+                "Kotri - کوٹری",
+                "Manjhand - منجھند",
+                "Thano Bula Khan - ٹھانو بولا خان"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Sukkur Division - سکھر ڈویژن",
+          "Districts": [
+            {
+              "District": "Sukkur - سکھر",
+              "Tehsils": [
+                "Sukkur City - سکھر سٹی",
+                "Rohri - روہڑی",
+                "Pano Aqil - پنو عاقل",
+                "Salehpat - صالح پت",
+                "Kot Mir Muhammad - کوٹ میر محمد"
+              ]
+            },
+            {
+              "District": "Ghotki - گھوٹکی",
+              "Tehsils": [
+                "Ghotki - گھوٹکی",
+                "Daharki - ڈہرکی",
+                "Khangarh - خان گڑھ",
+                "Mirpur Mathelo - میرپور مٹھیلو",
+                "Ubauro - اوبارو"
+              ]
+            },
+            {
+              "District": "Khairpur - خیرپور",
+              "Tehsils": [
+                "Khairpur - خیرپور",
+                "Kot Diji - کوٹ ڈیجی",
+                "Nara - نارا",
+                "Kingri - کنگری",
+                "Faqirwali - فقیروالی"
+              ]
+            },
+            {
+              "District": "Naushahro Feroze - نوشہرو فیروز",
+              "Tehsils": [
+                "Naushahro Feroze - نوشہرو فیروز",
+                "Morro - مورو",
+                "Bhiria - بھریا",
+                "Mehrabpur - مہراب پور",
+                "Kandiaro - کندیارو"
+              ]
+            },
+            {
+              "District": "Shaheed Benazirabad - شہید بینظیر آباد",
+              "Tehsils": [
+                "Nawabshah - نواب شاہ",
+                "Sakrand - سکرنڈ",
+                "Qazi Ahmed - قاضی احمد",
+                "Daur - داؤر",
+                "Bandhi - بانڈھی"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Larkana Division - لاڑکانہ ڈویژن",
+          "Districts": [
+            {
+              "District": "Larkana - لاڑکانہ",
+              "Tehsils": [
+                "Larkana - لاڑکانہ",
+                "Bakrani - بکرانی",
+                "Dokri - ڈوکری",
+                "Ratodero - رتو ڈیرو",
+                "Warah - وارہ"
+              ]
+            },
+            {
+              "District": "Kamber Shahdadkot - کمبر شہدادکوٹ",
+              "Tehsils": [
+                "Kamber - کمبر",
+                "Shahdadkot - شہدادکوٹ",
+                "Miro Khan - میرو خان",
+                "Sijawal - سجاول",
+                "Nasirabad - نصیر آباد"
+              ]
+            },
+            {
+              "District": "Shikarpur - شکارپور",
+              "Tehsils": [
+                "Shikarpur - شکارپور",
+                "Garhi Yasin - گڑھی یاسین",
+                "Lakhi - لکھی",
+                "Khanpur - خان پور",
+                "Madeji - ماڈیجی"
+              ]
+            },
+            {
+              "District": "Jacobabad - جیکب آباد",
+              "Tehsils": [
+                "Jacobabad - جیکب آباد",
+                "Thul - ٹھل",
+                "Garhi Khairo - گڑھی خیرو",
+                "Kashmore - کشمور",
+                "Thariri - تھریڑی"
+              ]
+            },
+            {
+              "District": "Kashmore - کشمور",
+              "Tehsils": [
+                "Kashmore - کشمور",
+                "Kandhkot - کندھکوٹ",
+                "Tangwani - تنگوانی",
+                "Ghotki - گھوٹکی",
+                "Khangarh - خان گڑھ"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Mirpur Khas Division - میرپور خاص ڈویژن",
+          "Districts": [
+            {
+              "District": "Mirpur Khas - میرپور خاص",
+              "Tehsils": [
+                "Mirpur Khas - میرپور خاص",
+                "Digri - ڈگری",
+                "Kot Ghulam Muhammad - کوٹ غلام محمد",
+                "Hussain Bux Mari - حسین بخش ماری",
+                "Shujaabad - شجاع آباد"
+              ]
+            },
+            {
+              "District": "Umerkot - عمرکوٹ",
+              "Tehsils": [
+                "Umerkot - عمرکوٹ",
+                "Pithoro - پتھورو",
+                "Samaro - سماڑو",
+                "Kunri - کنڑی",
+                "Dhoro Naro - ڈھورو نارو"
+              ]
+            },
+            {
+              "District": "Tharparkar - تھرپارکر",
+              "Tehsils": [
+                "Mithi - مٹھی",
+                "Diplo - ڈپلو",
+                "Chachro - چاچڑو",
+                "Nangarparkar - ننگرپارکر",
+                "Islamkot - اسلام کوٹ"
+              ]
+            },
+            {
+              "District": "Sanghar - سانگھڑ",
+              "Tehsils": [
+                "Sanghar - سانگھڑ",
+                "Shahdadpur - شہدادپور",
+                "Tando Adam - ٹنڈو آدم",
+                "Jhudo - جھڈو",
+                "Sinjhoro - سنجھورو"
+              ]
+            },
+            {
+              "District": "Badin - بدین",
+              "Tehsils": [
+                "Badin - بدین",
+                "Matli - مٹلی",
+                "Talhar - تلہار",
+                "Tando Bago - ٹنڈو باگو",
+                "Golarchi - گولارچی"
+              ]
+            },
+            {
+              "District": "Thatta - ٹھٹہ",
+              "Tehsils": [
+                "Thatta - ٹھٹہ",
+                "Mirpur Bathoro - میرپور بٹھورو",
+                "Keti Bunder - کیٹی بندر",
+                "Ghorabari - گھورا باری",
+                "Jati - جاتی"
+              ]
+            },
+            {
+              "District": "Sujawal - سجاول",
+              "Tehsils": [
+                "Sujawal - سجاول",
+                "Jati - جاتی",
+                "Shah Bunder - شاہ بندر",
+                "Kharo Chan - کھارو چان",
+                "Tando Hafiz Shah - ٹنڈو حافظ شاہ"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Province": "Khyber Pakhtunkhwa - خیبر پختونخوا",
+      "Divisions": [
+        {
+          "Division": "Peshawar Division - پشاور ڈویژن",
+          "Districts": [
+            {
+              "District": "Peshawar - پشاور",
+              "Tehsils": [
+                "Peshawar City - پشاور سٹی",
+                "Peshawar Saddar - پشاور صدر",
+                "Charsadda - چارسدہ",
+                "Nowshera - نوشہرہ",
+                "Badaber - بڈابیر",
+                "Pabbi - پبی"
+              ]
+            },
+            {
+              "District": "Charsadda - چارسدہ",
+              "Tehsils": [
+                "Charsadda - چارسدہ",
+                "Shabqadar - شابقدار",
+                "Tangi - ٹنگی",
+                "Umerzai - عمرزئی",
+                "Matta Mughal Khel - متہ مغل خیل"
+              ]
+            },
+            {
+              "District": "Nowshera - نوشہرہ",
+              "Tehsils": [
+                "Nowshera - نوشہرہ",
+                "Pabbi - پبی",
+                "Jehangira - جہانگیرہ",
+                "Azakhel - ازہ خیل",
+                "Risalpur - رسالپور"
+              ]
+            },
+            {
+              "District": "Khyber - خیبر",
+              "Tehsils": [
+                "Landi Kotal - لندی کوتل",
+                "Jamrud - جمرود",
+                "Bara - بارہ"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Malakand Division - ملاکنڈ ڈویژن",
+          "Districts": [
+            {
+              "District": "Swat - سوات",
+              "Tehsils": [
+                "Mingora - مینگورہ",
+                "Kabal - کبل",
+                "Barikot - باری کوٹ",
+                "Babuzai - بابوزئی",
+                "Khwazakhela - خوازہ خیلہ",
+                "Mattah - متہ"
+              ]
+            },
+            {
+              "District": "Malakand - ملاکنڈ",
+              "Tehsils": [
+                "Dargai - درگئی",
+                "Batkhela - بٹ خیلہ",
+                "Chakdara - چکدرہ",
+                "Swat Ranizai - سوات رنزئی"
+              ]
+            },
+            {
+              "District": "Lower Dir - زیریں دیر",
+              "Tehsils": [
+                "Timergara - ٹمرگرہ",
+                "Adenzai - عدنزئی",
+                "Balambat - بلامبت",
+                "Samar Bagh - ثمر باغ",
+                "Munda - منڈا"
+              ]
+            },
+            {
+              "District": "Upper Dir - بالائی دیر",
+              "Tehsils": [
+                "Dir - دیر",
+                "Wari - واری",
+                "Shahikot - شاہی کوٹ",
+                "Kumrat - کومرت",
+                "Kalkot - کالکوٹ"
+              ]
+            },
+            {
+              "District": "Buner - بونیر",
+              "Tehsils": [
+                "Daggar - ڈگر",
+                "Gagra - گاگرا",
+                "Khudu Khel - خدو خیل",
+                "Chagharzai - چغزئی"
+              ]
+            },
+            {
+              "District": "Shangla - شانگلہ",
+              "Tehsils": [
+                "Alpuri - الپوری",
+                "Besham - بشام",
+                "Martung - مارٹنگ",
+                "Chakesar - چکیدار"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Mardan Division - مردان ڈویژن",
+          "Districts": [
+            {
+              "District": "Mardan - مردان",
+              "Tehsils": [
+                "Mardan City - مردان سٹی",
+                "Mardan Saddar - مردان صدر",
+                "Takht Bhai - تخت بھائی",
+                "Katlang - کٹلنگ",
+                "Rustam - رستم"
+              ]
+            },
+            {
+              "District": "Swabi - صوابی",
+              "Tehsils": [
+                "Swabi - صوابی",
+                "Topi - توپی",
+                "Razar - رضار",
+                "Lahor - لاہور"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Hazara Division - ہزارہ ڈویژن",
+          "Districts": [
+            {
+              "District": "Abbottabad - ایبٹ آباد",
+              "Tehsils": [
+                "Abbottabad City - ایبٹ آباد سٹی",
+                "Abbottabad Saddar - ایبٹ آباد صدر",
+                "Havelian - ہری پور",
+                "Nawanshehr - نواب شہر",
+                "Lora - لورا"
+              ]
+            },
+            {
+              "District": "Mansehra - مانسہرہ",
+              "Tehsils": [
+                "Mansehra - مانسہرہ",
+                "Baffa - بفہ",
+                "Oghi - اوگی",
+                "Balakot - بالاکوٹ",
+                "Darband - دربند"
+              ]
+            },
+            {
+              "District": "Haripur - ہری پور",
+              "Tehsils": [
+                "Haripur - ہری پور",
+                "Ghazi - غازی",
+                "Khanpur - خان پور",
+                "Gandhian - گاندھیان"
+              ]
+            },
+            {
+              "District": "Batagram - بٹگرام",
+              "Tehsils": [
+                "Batagram - بٹگرام",
+                "Allai - الائی",
+                "Banna - بنہ",
+                "Bateela - بٹیلا"
+              ]
+            },
+            {
+              "District": "Kohistan - کوہستان",
+              "Tehsils": [
+                "Dassu - داسو",
+                "Kandia - کنڈیا",
+                "Pattan - پتن",
+                "Palas - پالس"
+              ]
+            },
+            {
+              "District": "Torghar - تورغر",
+              "Tehsils": [
+                "Judbah - جدبا",
+                "Kandaro - کندارو"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Kohat Division - کوہاٹ ڈویژن",
+          "Districts": [
+            {
+              "District": "Kohat - کوہاٹ",
+              "Tehsils": [
+                "Kohat City - کوہاٹ سٹی",
+                "Kohat Saddar - کوہاٹ صدر",
+                "Lachi - لاچی",
+                "Darra Adam Khel - درہ آدم خیل",
+                "Gumbat - گمبٹ"
+              ]
+            },
+            {
+              "District": "Hangu - ہنگو",
+              "Tehsils": [
+                "Hangu - ہنگو",
+                "Tall - ٹال",
+                "Dozan - دوزان",
+                "Thall - تھل"
+              ]
+            },
+            {
+              "District": "Karak - کرک",
+              "Tehsils": [
+                "Karak - کرک",
+                "Banda Daud Shah - بانڈہ داؤد شاہ",
+                "Takht-e-Nasrati - تخت نصرتی",
+                "Gambila - گمبیلا"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Bannu Division - بنوں ڈویژن",
+          "Districts": [
+            {
+              "District": "Bannu - بنوں",
+              "Tehsils": [
+                "Bannu City - بنوں سٹی",
+                "Bannu Saddar - بنوں صدر",
+                "Domel - ڈومیل",
+                "Miryan - میر یان",
+                "Kakki - ککی"
+              ]
+            },
+            {
+              "District": "Lakki Marwat - لکی مروت",
+              "Tehsils": [
+                "Lakki Marwat - لکی مروت",
+                "Serai Naurang - سرائے نورنگ",
+                "Ghazni Khel - غزنی خیل",
+                "Dadiwala - دادے والا"
+              ]
+            },
+            {
+              "District": "North Waziristan - شمالی وزیرستان",
+              "Tehsils": [
+                "Miranshah - میر ان شاہ",
+                "Mir Ali - میر علی",
+                "Razmak - رزمک"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Dera Ismail Khan Division - ڈیرہ اسماعیل خان ڈویژن",
+          "Districts": [
+            {
+              "District": "Dera Ismail Khan - ڈیرہ اسماعیل خان",
+              "Tehsils": [
+                "Dera Ismail Khan City - ڈیرہ اسماعیل خان سٹی",
+                "Dera Ismail Khan Saddar - ڈیرہ اسماعیل خان صدر",
+                "Paharpur - پہاڑ پور",
+                "Paroa - پاروا",
+                "Daraban - درابان"
+              ]
+            },
+            {
+              "District": "Tank - ٹانک",
+              "Tehsils": [
+                "Tank - ٹانک",
+                "Kulachi - کلاچی",
+                "Gomal - گومل",
+                "Jandola - جندولہ"
+              ]
+            },
+            {
+              "District": "South Waziristan - جنوبی وزیرستان",
+              "Tehsils": [
+                "Wana - واڑہ",
+                "Sarwakai - سر واکئی",
+                "Ladha - لڑہ"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Province": "Balochistan - بلوچستان",
+      "Divisions": [
+        {
+          "Division": "Quetta Division - کوئٹہ ڈویژن",
+          "Districts": [
+            {
+              "District": "Quetta - کوئٹہ",
+              "Tehsils": [
+                "Quetta City - کوئٹہ سٹی",
+                "Quetta Saddar - کوئٹہ صدر",
+                "Kuchlak - کوچلاک",
+                "Ziarat - زیارت",
+                "Hanna Valley - ہنہ وادی",
+                "Punjpai - پنجپائی"
+              ]
+            },
+            {
+              "District": "Pishin - پشین",
+              "Tehsils": [
+                "Pishin - پشین",
+                "Barshore - برشور",
+                "Karezat - کرزت",
+                "Saranan - سرانان",
+                "Murgha Kibzai - مرغہ کبزئی"
+              ]
+            },
+            {
+              "District": "Killa Abdullah - قلعہ عبداللہ",
+              "Tehsils": [
+                "Chaman - چمن",
+                "Dobandi - دو بندی",
+                "Gulistan - گلستان",
+                "Killi Luqman - کلی لقمان",
+                "Shaal - شال"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Kalat Division - قلات ڈویژن",
+          "Districts": [
+            {
+              "District": "Kalat - قلات",
+              "Tehsils": [
+                "Kalat - قلات",
+                "Manguchar - منگوچر",
+                "Surab - سوراب",
+                "Gazgz - گزگز",
+                "Shahr-e-Safa - شہر صفا"
+              ]
+            },
+            {
+              "District": "Mastung - مستونگ",
+              "Tehsils": [
+                "Mastung - مستونگ",
+                "Dasht - دشت",
+                "Khad Kucha - خد کوچہ",
+                "Kirdgap - کردگاپ",
+                "Soro - سورو"
+              ]
+            },
+            {
+              "District": "Khuzdar - خضدار",
+              "Tehsils": [
+                "Khuzdar - خضدار",
+                "Wadh - وڈھ",
+                "Moola - مولا",
+                "Nal - نال",
+                "Zeeri - زیری",
+                "Nag - ناگ"
+              ]
+            },
+            {
+              "District": "Lasbela - لسبیلہ",
+              "Tehsils": [
+                "Uthal - اوتھل",
+                "Bela - بیلہ",
+                "Dureji - دُرجی",
+                "Kanraj - کنراج"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Makran Division - مکران ڈویژن",
+          "Districts": [
+            {
+              "District": "Gwadar - گوادر",
+              "Tehsils": [
+                "Gwadar - گوادر",
+                "Pasni - پسنی",
+                "Ormara - اورماڑا",
+                "Jiwani - جیوانی",
+                "Pishukan - پشوکان"
+              ]
+            },
+            {
+              "District": "Kech (Turbat) - کیچ (تربت)",
+              "Tehsils": [
+                "Turbat - تربت",
+                "Tump - ٹمپ",
+                "Buleda - بلیدہ",
+                "Dasht - دشت",
+                "Mand - مند"
+              ]
+            },
+            {
+              "District": "Panjgur - پنجگور",
+              "Tehsils": [
+                "Panjgur - پنجگور",
+                "Gichk - گیشک",
+                "Parome - پاروم",
+                "Gokdan - گوکدان",
+                "Pidarak - پیڈارک"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Zhob Division - ژوب ڈویژن",
+          "Districts": [
+            {
+              "District": "Zhob - ژوب",
+              "Tehsils": [
+                "Zhob - ژوب",
+                "Qamar Din Karez - قمر دین کاریز",
+                "Sambaza - سمبازہ",
+                "Ashwat - اشوات",
+                "Kakar Khurasan - کاکڑ خراسان"
+              ]
+            },
+            {
+              "District": "Sherani - شیرانی",
+              "Tehsils": [
+                "Sherani - شیرانی",
+                "Dakar - ڈاکر",
+                "Sibi - سیبی",
+                "Viala - ویالہ",
+                "Sanzak - سنزک"
+              ]
+            },
+            {
+              "District": "Killa Saifullah - قلعہ سیف اللہ",
+              "Tehsils": [
+                "Killa Saifullah - قلعہ سیف اللہ",
+                "Musakhail - موسیٰ خیل",
+                "Loiband - لوئی بند",
+                "Kan Mehtarzai - کن مہترزئی"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Sibi Division - سیبی ڈویژن",
+          "Districts": [
+            {
+              "District": "Sibi - سیبی",
+              "Tehsils": [
+                "Sibi - سیبی",
+                "Lehri - لہری",
+                "Kohlu - کوہلو",
+                "Kotri - کوٹری",
+                "Tangi - تنگی"
+              ]
+            },
+            {
+              "District": "Dera Bugti - ڈیرہ بگٹی",
+              "Tehsils": [
+                "Dera Bugti - ڈیرہ بگٹی",
+                "Phelawagh - پھیلاواغ",
+                "Sui - سوئی",
+                "Pir Koh - پیر کوہ",
+                "Baiker - بیکر"
+              ]
+            },
+            {
+              "District": "Ziarat - زیارت",
+              "Tehsils": [
+                "Ziarat - زیارت",
+                "Sanjavi - سنجاوی",
+                "Sinjavi - سنجاوی"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Nasirabad Division - نصیرآباد ڈویژن",
+          "Districts": [
+            {
+              "District": "Nasirabad - نصیرآباد",
+              "Tehsils": [
+                "Nasirabad - نصیرآباد",
+                "Dera Murad Jamali - ڈیرہ مراد جمالی",
+                "Tamboo - تھمبو",
+                "Babakot - باباکوٹ",
+                "Chattar - چھتر"
+              ]
+            },
+            {
+              "District": "Jafarabad - جعفرآباد",
+              "Tehsils": [
+                "Dera Allah Yar - ڈیرہ اللہ یار",
+                "Gandakha - گنداخہ",
+                "Usta Muhammad - اُستہ محمد",
+                "Bhag - بھاگ",
+                "Manjhipur - منجھی پور"
+              ]
+            },
+            {
+              "District": "Jhal Magsi - جھل مگسی",
+              "Tehsils": [
+                "Jhal Magsi - جھل مگسی",
+                "Gandawa - گنداوہ",
+                "Rindak - رندک"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Rakhshan Division - رخشان ڈویژن",
+          "Districts": [
+            {
+              "District": "Chagai - چاغی",
+              "Tehsils": [
+                "Dalbandin - دالبندین",
+                "Nokundi - نوکنڈی",
+                "Taftan - تفتان",
+                "Zehri - زہری",
+                "Chagai - چاغی"
+              ]
+            },
+            {
+              "District": "Washuk - واشک",
+              "Tehsils": [
+                "Washuk - واشک",
+                "Basima - بسیما",
+                "Mashkel - ماشکیل",
+                "Awaran - آواران"
+              ]
+            },
+            {
+              "District": "Kharan - خاران",
+              "Tehsils": [
+                "Kharan - خاران",
+                "Surkhab - سرخاب",
+                "Nag - ناگ"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Loralai Division - لورالائی ڈویژن",
+          "Districts": [
+            {
+              "District": "Loralai - لورالائی",
+              "Tehsils": [
+                "Loralai - لورالائی",
+                "Bori - بوری",
+                "Duki - ڈوکی",
+                "Mekhtar - مکھتر"
+              ]
+            },
+            {
+              "District": "Barkhan - بارخان",
+              "Tehsils": [
+                "Barkhan - بارخان",
+                "Chamalang - چمن لنگ",
+                "Rakhni - رخنی"
+              ]
+            },
+            {
+              "District": "Musakhel - موسیٰ خیل",
+              "Tehsils": [
+                "Musakhel - موسیٰ خیل",
+                "Kingri - کنگری",
+                "Drazanda - درازندہ"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Province": "Azad Jammu & Kashmir (AJK) - آزاد جموں و کشمیر",
+      "Divisions": [
+        {
+          "Division": "Muzaffarabad Division - مظفرآباد ڈویژن",
+          "Districts": [
+            {
+              "District": "Muzaffarabad - مظفرآباد",
+              "Tehsils": [
+                "Muzaffarabad City - مظفرآباد سٹی",
+                "Muzaffarabad Saddar - مظفرآباد صدر",
+                "Hattian Bala - ہٹیاں بالا",
+                "Leepa - لیپا",
+                "Chakothi - چکوٹھی",
+                "Garhi Dupatta - گڑھی دوپٹہ"
+              ]
+            },
+            {
+              "District": "Hattian Bala - ہٹیاں بالا",
+              "Tehsils": [
+                "Hattian Bala - ہٹیاں بالا",
+                "Chikar - چکر",
+                "Choa Saidan Shah - چوآ سیداں شاہ",
+                "Saran - سارن",
+                "Kuttan - کٹن"
+              ]
+            },
+            {
+              "District": "Neelum - نیلم",
+              "Tehsils": [
+                "Athmuqam - آٹھمقام",
+                "Sharda - شاردا",
+                "Kel - کیل",
+                "Dawar - داور",
+                "Jura - جورا",
+                "Authmuqam - آٹھمقام"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Mirpur Division - میرپور ڈویژن",
+          "Districts": [
+            {
+              "District": "Mirpur - میرپور",
+              "Tehsils": [
+                "Mirpur City - میرپور سٹی",
+                "Mirpur Saddar - میرپور صدر",
+                "Dadyal - ڈڈیال",
+                "Chaksawari - چک ساواڑی",
+                "Islamgarh - اسلام گڑھ",
+                "Khari Sharif - خاری شریف"
+              ]
+            },
+            {
+              "District": "Bhimber - بھمبر",
+              "Tehsils": [
+                "Bhimber - بھمبر",
+                "Barnala - برنالہ",
+                "Samahni - سماہنی",
+                "Chibb - چب",
+                "Panjar - پنجر"
+              ]
+            },
+            {
+              "District": "Kotli - کوٹلی",
+              "Tehsils": [
+                "Kotli City - کوٹلی سٹی",
+                "Kotli Saddar - کوٹلی صدر",
+                "Khuiratta - کھوئی رٹہ",
+                "Sehnsa - سہنسہ",
+                "Fatehpur Thakiala - فتح پور ٹھکیالا",
+                "Nakyal - نکہیال"
+              ]
+            },
+            {
+              "District": "Jhelum Valley - جہلم وادی",
+              "Tehsils": [
+                "Chinari - چناری",
+                "Hattian - ہٹیاں",
+                "Chakothi - چکوٹھی"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Poonch Division - پونچھ ڈویژن",
+          "Districts": [
+            {
+              "District": "Poonch - پونچھ",
+              "Tehsils": [
+                "Rawalakot - راولاکوٹ",
+                "Abbaspur - عباس پور",
+                "Hajira - حاجیہرہ",
+                "Thorar - تھورار",
+                "Tatrinote - تترینوٹ"
+              ]
+            },
+            {
+              "District": "Sudhnuti - سدھنوتی",
+              "Tehsils": [
+                "Pallandri - پلندری",
+                "Trar Dewan - ترڑ دیوان",
+                "Baloch - بلوچ",
+                "Mang - منگ",
+                "Tarar Khal - ترار خال"
+              ]
+            },
+            {
+              "District": "Bagh - باغ",
+              "Tehsils": [
+                "Bagh - باغ",
+                "Dheerkot - دھیرکوٹ",
+                "Hari Gehl - ہری گیل",
+                "Mong Bajri - مونگ باجری",
+                "Chirikot - چرکوٹ"
+              ]
+            },
+            {
+              "District": "Haveli - حویلی",
+              "Tehsils": [
+                "Forward Kahuta - فارورڈ کہوٹہ",
+                "Khurshid Abad - خورشید آباد",
+                "Mandhole - منڈھول",
+                "Bandi - بانڈی",
+                "Kahuta - کہوٹہ"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Province": "Gilgit-Baltistan (GB) - گلگت بلتستان",
+      "Divisions": [
+        {
+          "Division": "Gilgit Division - گلگت ڈویژن",
+          "Districts": [
+            {
+              "District": "Gilgit - گلگت",
+              "Tehsils": [
+                "Gilgit City - گلگت سٹی",
+                "Gilgit Saddar - گلگت صدر",
+                "Danyore - دانیور",
+                "Jutial - جٹیال",
+                "Nomal - نومل",
+                "Oshikhandass - اوشیخنداس"
+              ]
+            },
+            {
+              "District": "Hunza - ہنزہ",
+              "Tehsils": [
+                "Aliabad - علی آباد",
+                "Gojal - گوجال",
+                "Nagar - نگر",
+                "Murtazabad - مرتضیٰ آباد",
+                "Shimshal - شمشال",
+                "Chipurson - چپورسن"
+              ]
+            },
+            {
+              "District": "Ghanche - گانچھے",
+              "Tehsils": [
+                "Khaplu - خپلو",
+                "Mashabrum - مشبرم",
+                "Thalle - تھلے",
+                "Daghoni - ڈغونی",
+                "Tolti - تولٹی",
+                "Hushe - ہوشے"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Baltistan Division - بلتستان ڈویژن",
+          "Districts": [
+            {
+              "District": "Skardu - سکردو",
+              "Tehsils": [
+                "Skardu City - سکردو سٹی",
+                "Skardu Saddar - سکردو صدر",
+                "Roundu - رونڈو",
+                "Shigar - شگر",
+                "Kachura - کچورا",
+                "Gultari - گلتری"
+              ]
+            },
+            {
+              "District": "Kharmang - کھرمنگ",
+              "Tehsils": [
+                "Kharmang - کھرمنگ",
+                "Tolti - تولٹی",
+                "Mashoor - مشور",
+                "Tarkati - ترکٹی",
+                "Goma - گوما",
+                "Marol - مارول"
+              ]
+            },
+            {
+              "District": "Shigar - شگر",
+              "Tehsils": [
+                "Shigar - شگر",
+                "Askole - اسکولے",
+                "Hushe - ہوشے",
+                "Barah - بارہ",
+                "Apo Ali Gang - آپو علی گنگ"
+              ]
+            }
+          ]
+        },
+        {
+          "Division": "Diamer Division - دیامر ڈویژن",
+          "Districts": [
+            {
+              "District": "Diamer - دیامر",
+              "Tehsils": [
+                "Chilas - چلاس",
+                "Darel - داریل",
+                "Tangir - تنگیر",
+                "Bunar - بونر",
+                "Shatial - شتیال",
+                "Thak Das - ٹھک داس"
+              ]
+            },
+            {
+              "District": "Astore - استور",
+              "Tehsils": [
+                "Astore - استور",
+                "Chilim - چلم",
+                "Bubin - بوبن",
+                "Fitch - فچ",
+                "Gulmet - گلمٹ",
+                "Rama - راما"
+              ]
+            },
+            {
+              "District": "Ghizer - غذر",
+              "Tehsils": [
+                "Gahkuch - گاہکوچ",
+                "Ishkoman - اشکومن",
+                "Punial - پونیال",
+                "Yasin - یاسین",
+                "Gupis - گوپس",
+                "Chatorkhand - چترکھنڈ"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

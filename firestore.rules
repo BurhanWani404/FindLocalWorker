@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /passwordResets/{email} {
+      allow create: if request.resource.data.code is string;
+      allow get, delete: if true;
+      allow update: if false;
+    }
+  }
+}
