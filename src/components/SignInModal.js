@@ -203,7 +203,7 @@ const SignInModal = ({ onClose = () => {}, onRegisterClick = () => {} }) => {
             <p className="text-gray-600 mt-1">
               {view === "signin"
                 ? "Sign in to your account"
-                : "Enter your email to receive a password reset link"}
+                : "Enter your email that you created account to receive a password reset link"}
             </p>
           </motion.div>
 

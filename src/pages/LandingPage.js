@@ -111,7 +111,7 @@ const LandingPage = () => {
       )}
 
       {/* Hero Section */}
-      <section className="hero-section bg-blue-50 py-16 flex-grow">
+      <section className="hero-section bg-blue-50 pt-10 pb-16 flex-grow">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
             {/* Left Side - Text Content */}
@@ -120,7 +120,7 @@ const LandingPage = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="text-4xl md:text-5xl font-bold text-gray-800 mb-6"
+                className="text-4xl md:text-5xl sm:text-md font-bold text-gray-800 mb-6"
               >
                 Find Skilled Workers{" "}
                 <span className="text-blue-600">Near You</span>

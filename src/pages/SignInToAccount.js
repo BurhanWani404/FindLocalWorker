@@ -87,6 +87,7 @@ function SignInToAccount() {
     worker: state.auth.worker,
     updateProfile: state.auth.updateProfile,
   }));
+
   const userInfo = useMemo(() => worker?.userInfo || {}, [worker?.userInfo]);
   const [initialData, setInitialData] = useState({ ...userInfo });
   useEffect(() => {
@@ -458,6 +459,23 @@ function SignInToAccount() {
       }
     }
   }, [userInfo]);
+  useEffect(() => {
+    const changes = {};
+    let hasAnyChanges = false;
+
+    Object.keys(editedData).forEach((key) => {
+      const editedValue = editedData[key] || "";
+      const initialValue = initialData[key] || "";
+
+      if (JSON.stringify(editedValue) !== JSON.stringify(initialValue)) {
+        changes[key] = true;
+        hasAnyChanges = true;
+      }
+    });
+
+    setChangedFields(changes);
+    setHasChanges(hasAnyChanges);
+  }, [editedData, initialData]);
 
   // When editing starts, load all districts and tehsils for the current province and district
   useEffect(() => {
@@ -725,15 +743,7 @@ function SignInToAccount() {
     setUploadingImage(true);
 
     try {
-      // 1. Create temporary URL for immediate display
-      const tempUrl = URL.createObjectURL(file);
-
-      // 2. Optimistically update local state
-      setEditedData((prev) => ({ ...prev, url: tempUrl }));
-      setChangedFields((prev) => ({ ...prev, url: true }));
-      setHasChanges(true);
-
-      // 3. Upload to Cloudinary
+      // Upload to Cloudinary
       const uploadData = new FormData();
       uploadData.append("file", file);
       uploadData.append("upload_preset", "upload_pictures");
@@ -749,25 +759,17 @@ function SignInToAccount() {
       const result = await response.json();
       const imageUrl = result.secure_url;
 
-      // 4. Update with permanent URL
+      // Update with permanent URL from Cloudinary
       setEditedData((prev) => ({ ...prev, url: imageUrl }));
 
-      // 5. Immediately update the profile picture in the UI
-      dispatch({
-        type: "UPDATE_WORKER_LOCAL_PROFILE",
-        payload: { url: imageUrl },
-      });
+      // Mark the URL field as changed to enable Save button
+      setChangedFields((prev) => ({ ...prev, url: true }));
+      setHasChanges(true);
     } catch (error) {
       console.error("Error uploading image:", error);
-      // Revert to previous image if upload fails
-      setEditedData((prev) => ({ ...prev, url: userInfo?.url }));
       alert("Error updating profile image. Please try again.");
     } finally {
       setUploadingImage(false);
-      // Revoke the temporary URL to free memory
-      if (file) {
-        URL.revokeObjectURL(file);
-      }
     }
   };
 
@@ -835,9 +837,9 @@ function SignInToAccount() {
       initial="hidden"
       animate="visible"
       variants={containerVariants}
-      className="min-h-screen mt-14 bg-gray-100 py-12 px-4 sm:px-6 lg:px-8"
+      className="min-h-screen mt-14 bg-gray-100 pb-12 pt-4 px-2 sm:px-0 lg:px-8"
     >
-      <div className="container mx-auto">
+      <div className="w-full md:container mx-auto">
         <motion.div
           variants={cardVariants}
           className="bg-white rounded-xl shadow-md overflow-hidden"
@@ -858,18 +860,30 @@ function SignInToAccount() {
                 transition={{ type: "spring", stiffness: 100 }}
               >
                 <div className="relative">
-                  <motion.img
-                    src={userInfo.url}
-                    alt="Profile"
-                    className="h-36 w-36 rounded-full max-w-md mx-auto object-cover border-4 border-white shadow-lg"
-                    whileHover={{ scale: 1.05 }}
-                    transition={{ type: "spring", stiffness: 400 }}
-                  />
+                  <div className="h-36 w-36 rounded-full max-w-md mx-auto border-4 border-white shadow-lg overflow-hidden">
+                    {uploadingImage ? (
+                      <div className="h-full w-full bg-gray-200 flex items-center justify-center">
+                        <FontAwesomeIcon
+                          icon={faSpinner}
+                          className="animate-spin text-blue-500 text-2xl"
+                        />
+                      </div>
+                    ) : (
+                      <motion.img
+                        src={editedData.url || userInfo.url}
+                        alt="Profile"
+                        className="h-full w-full object-cover"
+                        whileHover={{ scale: 1.05 }}
+                        transition={{ type: "spring", stiffness: 400 }}
+                      />
+                    )}
+                  </div>
+
                   {isEditing && (
                     <motion.div className="mt-4 text-center">
                       <motion.button
                         onClick={() => fileInputRef.current.click()}
-                        className={`bg-blue-600  text-white text-xs px-3 py-1 rounded-md ${
+                        className={`bg-blue-600 text-white text-xs px-3 py-1 rounded-md ${
                           uploadingImage ? "bg-blue-400" : "hover:bg-blue-700"
                         }`}
                         variants={buttonVariants}
@@ -917,8 +931,6 @@ function SignInToAccount() {
                     another place for work!
                   </motion.p>
                 </div>
-
-                {/* Profile card display */}
               </motion.div>
             )}
 
@@ -1346,7 +1358,7 @@ function SignInToAccount() {
           </div>
         </motion.div>
       </div>
-      <div className="container flex flex-col md:flex-row mx-auto mt-4 bg-white py-4 px-4 sm:px-6 lg:px-8 rounded-lg gap-4 md:gap-6">
+      <div className="w-full md:container flex flex-col md:flex-row mx-auto mt-4 bg-white py-4 px-2 sm:px-0 lg:px-8 rounded-lg gap-4 md:gap-6">
         {/* Worker Profile Card - This will come first on mobile */}
         <div className="bg-white p-3 pt-1 rounded-lg shadow-md border border-gray-200 md:flex-1">
           {/* Rating display */}
@@ -1437,8 +1449,8 @@ function SignInToAccount() {
                 className="mt-1 mr-2 text-blue-500"
               />
               <span>
-                {userInfo?.province?.split(" - ")[0] || "Not specified"},
-                {userInfo?.district?.split(" - ")[0] || ""},
+                {userInfo?.province?.split(" - ")[0] || "Not specified"}, &nbsp;
+                {userInfo?.district?.split(" - ")[0] || ""}, &nbsp;
                 {userInfo?.tehsil?.split(" - ")[0] || ""}
               </span>
             </div>

@@ -37,6 +37,7 @@ import {
   submitFeedback,
   fetchWorkerFeedbacks,
 } from "../redux/actions/feedbackActions";
+import { FaTimes } from "react-icons/fa";
 
 // Animation variants
 const containerVariants = {
@@ -443,7 +444,7 @@ function SearchWorker() {
           {sidebarOpen ? "Close" : "Filters"}
         </motion.button>
       )}
-      <div className="container mx-auto px-4 pt-20">
+      <div className="container mx-auto px-2 pt-20">
         <div className="flex">
           {/* Worker Profiles Section (Left Side) */}
           <div className={`${isLargeScreen ? "w-3/4 pr-4" : "w-full"}`}>
@@ -451,7 +452,7 @@ function SearchWorker() {
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                className="flex justify-center items-center h-[70vh]"
+                className="flex justify-center items-center h-[100vh] mt-4"
               >
                 <div className="text-center ">
                   <p className="text-3xl text-blue-500 font-bold">
@@ -489,7 +490,7 @@ function SearchWorker() {
                 variants={containerVariants}
                 initial="hidden"
                 animate={pageLoaded ? "show" : "hidden"}
-                className="grid grid-cols-1 md:grid-cols-2 gap-4"
+                className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2"
               >
                 {filteredWorkers.map((worker, index) => (
                   <motion.div
@@ -1225,6 +1226,20 @@ function SearchWorker() {
                         </div>
                       </div>
                     </div>
+                    <div className="mt-8 pt-4 border-t border-gray-200">
+                      <motion.button
+                        onClick={toggleSidebar}
+                        className="w-full flex items-center justify-center py-3 px-4 bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium rounded-lg transition-colors duration-200"
+                        whileHover={{ scale: 1.02 }}
+                        whileTap={{ scale: 0.98 }}
+                      >
+                        <span className="mr-2">Close</span>
+                        <FontAwesomeIcon
+                          icon={faTimes}
+                          className="text-gray-600"
+                        />
+                      </motion.button>
+                    </div>
                   </motion.div>
                 </>
               )}
@@ -1260,7 +1275,7 @@ function SearchWorker() {
                 {feedbacksLoading ? (
                   <div className="flex justify-center py-4">
                     <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500"></div>
-                    <span className="ml-2">Loading comments...</span>
+                    <span className="ml-2">Loading Reviews...</span>
                   </div>
                 ) : feedbacksError ? (
                   <div className="p-3 bg-red-100 text-red-700 rounded-lg flex items-center">
@@ -1325,7 +1340,7 @@ function SearchWorker() {
                       icon={faComment}
                       className="text-gray-400 text-2xl mb-2"
                     />
-                    <p className="text-gray-500">No comments yet</p>
+                    <p className="text-gray-500">No Reviews yet</p>
                     <p className="text-gray-400 text-sm mt-1">
                       Be the first to review this worker
                     </p>

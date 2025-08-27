@@ -21,12 +21,15 @@ import { useDispatch, useSelector } from "react-redux";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
 import { motion, AnimatePresence } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 const WorkerRegistration = () => {
   const { loading, worker, success, error } = useSelector(
     (state) => state.worker
   );
   const dispatch = useDispatch();
+
+  const navigate = useNavigate();
 
   const [errorModal, setErrorModal] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
@@ -288,12 +291,13 @@ const WorkerRegistration = () => {
   };
 
   // Update validateForm function
-  const validateForm = () => {
+  // Update validateForm function to accept form data parameter
+  const validateForm = (formDataToValidate = formData) => {
     const newErrors = {};
     let firstErrorField = null;
 
-    Object.keys(formData).forEach((key) => {
-      const error = validateField(key, formData[key]);
+    Object.keys(formDataToValidate).forEach((key) => {
+      const error = validateField(key, formDataToValidate[key]);
       if (error) {
         newErrors[key] = error;
         if (!firstErrorField) {
@@ -312,7 +316,6 @@ const WorkerRegistration = () => {
 
     return { errors: newErrors, firstErrorField };
   };
-
   const validateField = (name, value) => {
     let error = "";
     switch (name) {
@@ -341,12 +344,17 @@ const WorkerRegistration = () => {
       case "perHourWage":
         error = value ? "" : `${name} is required`;
         break;
-      case "whatsappNumber":
       case "contactNumber":
         error =
           value && value.length === 10
             ? ""
-            : `${name} must be exactly 10 digits`;
+            : "Contact number must be exactly 10 digits";
+        break;
+      case "whatsappNumber":
+        error =
+          value && value.length === 10
+            ? ""
+            : "WhatsApp number must be exactly 10 digits";
         break;
       case "password":
         error =
@@ -363,15 +371,22 @@ const WorkerRegistration = () => {
     return error;
   };
 
-  // Prevent non-numeric input for phone numbers
   const handlePhoneInput = (e) => {
     const { name, value } = e.target;
 
     // Remove all non-digit characters
     let numericValue = value.replace(/\D/g, "");
 
-    // Limit to 10 digits (remove any automatic 0 addition logic)
+    // Limit to 10 digits for both fields
     numericValue = numericValue.slice(0, 10);
+
+    // For contactNumber only: if it's empty after backspace, keep it empty
+    if (
+      name === "contactNumber" &&
+      e.nativeEvent.inputType === "deleteContentBackward"
+    ) {
+      numericValue = numericValue;
+    }
 
     setFormData({ ...formData, [name]: numericValue });
 
@@ -396,6 +411,7 @@ const WorkerRegistration = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
+    // Validate with the original form data (10 digits)
     const { errors: validationErrors, firstErrorField } = validateForm();
 
     if (Object.keys(validationErrors).length > 0) {
@@ -437,8 +453,14 @@ const WorkerRegistration = () => {
       return;
     }
 
-    console.log("Form data with image URL:", formData);
-    dispatch(registerWorker({ ...formData }));
+    // Process contact number AFTER validation (add 0 prefix)
+    const processedFormData = {
+      ...formData,
+      contactNumber: formData.contactNumber ? "0" + formData.contactNumber : "",
+    };
+
+    // console.log("Form data with image URL:", processedFormData);
+    dispatch(registerWorker({ ...processedFormData }));
   };
 
   return (
@@ -1256,10 +1278,11 @@ const WorkerRegistration = () => {
                   onClick={() => {
                     setShowModal(false);
                     dispatch(resetRegistration());
+                    navigate("/account");
                   }}
                   className="px-6 py-2"
                 >
-                  Continue to Dashboard
+                  See Your Account!.
                 </Button>
               </ModalFooter>
             </motion.div>

@@ -14,13 +14,15 @@ const Header = () => {
   const dispatch = useDispatch();
 
   // FIXED: Properly memoized selectors
-  const isAuthenticated = useSelector((state) => state.auth.worker.isAuthenticated);
+  const isAuthenticated = useSelector(
+    (state) => state.auth.worker.isAuthenticated
+  );
   const userInfo = useSelector((state) => state.auth.worker.userInfo);
 
   // Debug: Log authentication state
-  useEffect(() => {
-    console.log("Auth state:", { isAuthenticated, userInfo });
-  }, [isAuthenticated, userInfo, location.pathname]);
+  // useEffect(() => {
+  //   console.log("Auth state:", { isAuthenticated, userInfo });
+  // }, [isAuthenticated, userInfo, location.pathname]);
 
   // Toggle mobile menu
   const toggleMobileMenu = () => {
